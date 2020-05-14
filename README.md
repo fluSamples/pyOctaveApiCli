@@ -1,5 +1,5 @@
 # pyOctaveApiCli
 
+https://octave.sierrawireless.io
 https://rest.octave.dev/#octave-api-documentation
-
-https://octave-api.sierrawireless.io
+https://docs.octave.dev/
