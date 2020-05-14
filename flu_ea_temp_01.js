@@ -1,13 +1,13 @@
 function ( Evt )
 {
-    // Evt.value, Evt.timestamp
-	
+	// Evt.value, Evt.timestamp
+
 	var Res = { };
 	var Timeout = 0;
 	var MeasDur_s = 10;
 
 	var DateTime = new Date ( );
- 	var sDateTime = DateTime.toTimeString ( );
+	var sDateTime = DateTime.toTimeString ( );
 	var Msg = "flu_ea_temp_01 " + sDateTime + " " + Evt.value;
 	console.log ( Msg );
 
@@ -32,17 +32,17 @@ function ( Evt )
 	console.log ( "flu_vr_res_01_val=" + JSON.stringify ( flu_vr_res_01_val ) );
 	*/
 
-    /* Cannot test
+	/* Cannot test
 	var Pvt = Datahub.read ( "/location/coordinates/value",0 );
-    if ( Pvt ) {
-        Res [ "lat" ] = Pvt.lat;
+	if ( Pvt ) {
+		Res [ "lat" ] = Pvt.lat;
 		Res [ "lon" ] = Pvt.lon;
-    }*/
+	}*/
 
 	var DateTime = new Date ( );
- 	var sDateTime = DateTime.toTimeString ( );
+	var sDateTime = DateTime.toTimeString ( );
 	var Msg = "flu_ea_temp_01 done " + sDateTime + " " + Evt.value;
-    Res [ "message" ] = Msg;
+	Res [ "message" ] = Msg;
 
 	console.log ( "Res=" + JSON.stringify ( Res ) );
 	return {
