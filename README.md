@@ -1,9 +1,11 @@
 https://flusamples.github.io/pyOctaveApiCli/
 
-# Doc
+# Documentations
 
 https://rest.octave.dev/#octave-api-documentation
+
 https://docs.octave.dev/
+
 
 # UI
 
